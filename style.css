@@ -1,0 +1,167 @@
+/* this is the navigation side */
+.conteinor {
+    background: rgba(255, 144, 14, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.navigation {
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 240px;
+}
+.navigation-info {
+    margin-top: 24px;
+}
+.navigation-info a {
+    text-decoration: none;
+    margin-left: 50px;
+    
+}
+
+
+.section {
+    /* width: 862px;
+    height: 225px; */
+    justify-content: center;
+    text-align: center;
+    
+    margin: 0 530px;
+    font-family: 'Work Sans';
+}
+
+.section-title {
+    font-weight: 700;
+}
+.button {
+    
+}
+.btn {
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 10px;
+    margin:25px 660px;
+    color:  #FFFFFF;
+    font-size: 1.5em;
+    font-family: 'Work Sans';
+    
+}
+
+
+.img img {
+    width: 1010px;
+    margin:0px  240px;
+    margin-bottom: 30px;
+}
+
+/*-----------------------------------
+        
+       this is thie other side 
+
+------------------------------------------*/
+
+.secend-conteinor {
+    display: flex;
+    
+}
+
+
+.secend-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 342px;
+    height: 342px;
+}
+
+.text-side {
+    width: 537px;
+    height: 304px;
+    text-align: center;
+}
+
+
+/*--------------------------------
+      this is the third part
+------------------------------------ */
+main {
+    background-color: rgb(243, 251, 251);
+}
+
+.third-conteinor-title{
+    margin-left: 20px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+}
+.third-conteinor {
+    display: flex;
+    margin: 0px 240px;
+}
+
+.third-box{
+  
+}
+
+.third-title {
+    height: auto ;
+    width: 350px;
+    background:  rgb(243, 251, 251);
+    padding: 10px;
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px 1px ;
+    border-radius: 5px;
+}
+
+.third-conteinor-secend-side img {
+    width: 600px;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: -200px;
+    width: 200px;
+    height: 150px;
+}
+
+.btn-primary p {
+    font-size: 35px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/*--------------------------
+    this is the text sid
+-----------------------------*/
+
+
+.text-side{
+    color: #131313;
+    margin: 0px 240px;
+    text-align: left;
+}
+
+.text-side h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.text-side p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*--------------------------------------------
+
+      this is the box side of the webside 
+
+-----------------------------------------------*/
+
+
+
+
