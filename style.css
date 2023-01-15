@@ -165,3 +165,30 @@ main {
 
 
 
+.box-conteinor {
+    display: flex;
+    margin:0px 240px;
+    justify-content: space-between;
+    margin-top: -80px;
+   
+}
+
+
+.boxs {
+    border: 2px solid rgb(220, 70, 70);
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.boxs:hover {
+    background-color: rgb(85, 198, 160);
+}
+
+.pp{
+    color: #727272;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 16px;
+}
