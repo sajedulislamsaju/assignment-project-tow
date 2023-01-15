@@ -16,6 +16,7 @@
 .navigation-info a {
     text-decoration: none;
     margin-left: 50px;
+    color: #424242;
     
 }
 
@@ -33,9 +34,7 @@
 .section-title {
     font-weight: 700;
 }
-.button {
-    
-}
+
 .btn {
     width: 180px;
     height: 64px;
@@ -99,9 +98,7 @@ main {
     margin: 0px 240px;
 }
 
-.third-box{
-  
-}
+
 
 .third-title {
     height: auto ;
@@ -140,9 +137,11 @@ main {
 
 
 .text-side{
+
     color: #131313;
     margin: 0px 240px;
     text-align: left;
+    margin-top: 50px;
 }
 
 .text-side h1 {
@@ -175,7 +174,7 @@ main {
 
 
 .boxs {
-    border: 2px solid rgb(220, 70, 70);
+    border: 2px solid #FF900E;
     text-align: center;
     width: 150px;
     padding: 20px;
@@ -183,7 +182,7 @@ main {
 }
 
 .boxs:hover {
-    background-color: rgb(85, 198, 160);
+    background-color: aqua;
 }
 
 .pp{
@@ -192,3 +191,70 @@ main {
     font-weight: 600;
     font-size: 16px;
 }
+
+
+
+/*---------------------------------
+
+     
+     this is logo text   section
+
+--------------------------------------*/
+
+.logo {
+    text-align: center;
+    margin: 100px 0px ;
+}
+
+
+.text-side-logo {
+    color: #131313;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.font-logo {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+
+/*---------------------
+     this is logo 
+------------------------*/
+
+
+.images-logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 240px;
+    margin-bottom: 100px;
+}
+
+
+
+/*------------------------------------ 
+        this is the footer side 
+-------------------------------------*/
+
+
+
+
+.footer-conteinor {
+    margin: 0px 240px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    height: 75px;
+    justify-items: center;
+    margin-bottom: 200px;
+    padding-top: 25px;
+}
+
+
+
