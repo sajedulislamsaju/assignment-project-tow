@@ -1,4 +1,7 @@
+
+
 /* this is the navigation side */
+
 .conteinor {
     background: rgba(255, 144, 14, 0.1);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,24 +63,116 @@
 
 ------------------------------------------*/
 
-.secend-conteinor {
-    display: flex;
+.images-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 30px 240px;
+}
+
+.content-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.content-title-1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.content-title-2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.content-title-3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.images-all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.header-btn {
+    
+    background-color: #FF900E;
+    border-radius: 10px;
+    height: 50px;
+    color:  #FFFFFF;
+    font-size: 1.5em;
+    font-family: 'Work Sans';
+    padding: 5px;
     
 }
 
 
-.secend-images {
+
+/* Second Images Container Styles  */
+
+.images-container2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    width: 342px;
-    height: 342px;
+    gap: 40px;
+    margin: 50px 200px;
 }
 
-.text-side {
-    width: 537px;
-    height: 304px;
+.images2 {
+    width: 400px;
+    height: 555px;
+}
+
+.second-list {
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(218, 207, 207);
+}
+
+.content-title2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+}
+
+.button-padding {
+    padding: 10px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    /* align-items: center; */
+}
+
+.button-style {
+    font-weight: 700;
+    font-size: 40px;
     text-align: center;
+    color: #FFFFFF;
+}
+
+.button-style2 {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.image-with-button {
+    background-image: url(images/architect.png);
+    background-position: center;
+    width: 400px;
+    height: auto;
 }
 
 
@@ -168,7 +263,8 @@ main {
     display: flex;
     margin:0px 240px;
     justify-content: space-between;
-    margin-top: -80px;
+    /* margin-top: -80px; */
+    margin-top: 70px;
    
 }
 
@@ -258,3 +354,176 @@ main {
 
 
 
+
+/*-----------------------------------------
+        this is the media quari side 
+-------------------------------------------*/
+
+
+@media only screen and (max-width:576px) {
+    
+
+/* 
+    body {
+        max-width: 480px;
+    }
+     */
+    .conteinor {
+        margin: 0;
+    }
+
+    .navigation {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+       
+     }
+     .navigation h2 {
+        text-align: center;
+     }
+     .navigation-info a {
+        flex-direction: column;
+        margin: 20px;
+     }
+
+     .section {
+       
+        /* justify-content: center;
+        text-align: center; */
+        margin: 0 ;
+        
+    }
+
+    .btn {
+        margin-left: 100px;
+    }
+
+    .img img {
+        width: 100%;
+        margin:0px  ;
+        margin-bottom: 30px;
+    }
+
+
+
+    /* this is the other side  */
+     
+    .btn {
+        width: 100%;
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .images-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .images-all {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        justify-items: center;
+        margin: 0;
+    }
+   
+
+
+    /* this is the third side  */
+
+    main {
+        width: 100%;
+    }
+
+    .third-conteinor {
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+    .third-box {
+         
+        margin: 0;
+        
+       
+    }
+    .third-conteinor-secend-side {
+        width: 100%;
+    }
+    .third-conteinor-secend-side img {
+        width: 100%;
+    }
+
+    .third-title{
+        width: 96%;
+       text-align: center;
+    }
+
+    /* this is the text side  */
+
+    .text-side {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+
+
+    /* <!--------------------------------------- */
+    /* this is the box side of the webside */
+ /* -------------------------------------------> */
+
+
+    .box-conteinor {
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .boxs {
+        margin: 10px auto;
+    }
+
+
+ /* this is logo side */
+
+
+ .images-logo {
+    margin: 0;
+    /* width: 100%; */
+    flex-direction: column;
+    }
+
+    .images-logo div>img  {
+    margin-left: 100px;
+       margin-top: 20px;
+        
+    }
+
+
+
+
+    /* this is the footer side  */
+
+
+    .footer-conteinor {
+        margin: 0;
+    }
+    .images-logo p {
+        margin: 0;
+
+        margin-top: 100px;
+        text-align: center;
+        height: auto;
+        padding: 10%;
+        border-radius: 8px;
+        background-color: pink;
+    }
+
+}
